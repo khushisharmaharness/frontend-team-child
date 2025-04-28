@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: frontend-team
+  description: The Frontend Team
+spec:
+  type: team
+  parent: engineering
+  profile:
+    displayName: Frontend Team
+    email: frontend@example.com
+  members: 
+    - user:alice
+    - user:bob
