@@ -12,4 +12,6 @@ spec:
   members: 
     - user:alice
     - user:bob
-  children: []   
+  children: []
+  memberOf: 
+    - engineering 
